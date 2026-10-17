@@ -14,11 +14,11 @@ async function buscarCEP(cep: string): Promise<void> {
         console.log(`Bairro: ${data.bairro}`);
         console.log(`Localidade: ${data.localidade}`);
         console.log(`UF: ${data.uf}`);
-    } catch (error) {
-        console.error('Error fetching CEP data:', error);
+    } catch (e:any) {
+        console.error('Erro na Busca da API', e);
     }
 }
 
-// Example usage:
+// Exemplo de Uso: 
 const cep = '05572070';
 buscarCEP(cep);
