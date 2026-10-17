@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+  "dev": "tsx watch main.ts",
+  "start": "tsx main.ts",
+  "build": "tsc"
+}
+}
